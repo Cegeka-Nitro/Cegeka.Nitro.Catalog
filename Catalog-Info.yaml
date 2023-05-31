@@ -10,7 +10,7 @@ metadata:
     - dotnet
     - dev
   links:
-    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com//swagger/index.html
+    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/swagger/index.html
       title: Swagger
 spec:
   owner: Nitro
@@ -48,7 +48,7 @@ metadata:
     - dotnet
     - dev
   links:
-    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com//swagger/index.html
+    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/swagger/index.html
       title: Swagger
 spec:
   type: openapi
