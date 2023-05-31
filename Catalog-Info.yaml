@@ -6,7 +6,7 @@ metadata:
     argocd/app-name: weatherforecast-dev
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
   tags:
-    - .net
+    - dotnet
     - dev
   links:
     - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/weatherforecast
@@ -23,7 +23,7 @@ metadata:
     argocd/app-name: weatherforecast-dev
     backstage.io/kubernetes-label-selector: app=weatherforecastapi
   tags:
-    - .net
+    - dotnet
     - dev
 spec:
   type: website
@@ -42,7 +42,7 @@ metadata:
     argocd/app-name: weatherforecast-dev
     backstage.io/kubernetes-label-selector: app=weatherforecastapi
   tags:
-    - .net
+    - dotnet
     - dev
   links:
     - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/weatherforecast
