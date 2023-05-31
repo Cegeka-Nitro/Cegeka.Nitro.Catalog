@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: weatherforecast-dev-digitalproduct
+  description: weatherforecast system
   annotations:
     argocd/app-name: weatherforecast-dev
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
@@ -18,6 +19,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: weatherforecast-dev-weatherforecastapi-component
+  description: weatherforecast component
   annotations:
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
     argocd/app-name: weatherforecast-dev
@@ -37,6 +39,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: weatherforecast-dev-weatherforecastapi-api
+  description: weatherforecast API
   annotations:
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
     argocd/app-name: weatherforecast-dev
