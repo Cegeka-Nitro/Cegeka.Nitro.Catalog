@@ -15,7 +15,7 @@ metadata:
   annotations:
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
     argocd/app-name: weatherforecast-dev
-    backstage.io/kubernetes-namespace: cegeka-nitro-weatherforecast-dev
+    backstage.io/kubernetes-label-selector: app={{component.name}}
 spec:
   type: website
   lifecycle: experimental
@@ -31,7 +31,7 @@ metadata:
   annotations:
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
     argocd/app-name: weatherforecast-dev
-    backstage.io/kubernetes-label-selector: app=weatherforecastapi
+    backstage.io/kubernetes-label-selector: app={{component.name}}
 spec:
   type: openapi
   lifecycle: experimental
