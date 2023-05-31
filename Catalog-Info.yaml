@@ -48,8 +48,8 @@ metadata:
     - dotnet
     - dev
   links:
-    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/weatherforecast
-      title: Demo API
+    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com//swagger/index.html
+      title: Swagger
 spec:
   type: openapi
   lifecycle: experimental
