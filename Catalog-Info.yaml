@@ -5,6 +5,9 @@ metadata:
   annotations:
     argocd/app-name: weatherforecast-dev
     github.com/project-slug: Cegeka-Nitro/weatherforecast-prerepo
+  links:
+    - url: https://weatherforecastapi.weatherforecast-dev.dev.nitro.cegeka.com/weatherforecast
+      title: Demo API
 spec:
   owner: Nitro
 ---
